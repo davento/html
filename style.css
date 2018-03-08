@@ -6,7 +6,12 @@ body {
 
 header{
     background-color:rgb(99, 99, 194);
+    background-image: url('images/cars.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
     padding: 5px;
+    text-align: center;
+    text-shadow: 2px 2px rgb(0, 0, 0);
 }
 
 header nav{

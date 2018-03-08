@@ -1,3 +1,29 @@
 p.intro {
     font-size: 15px;
 }
+/*
+main section article img {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.image-description {
+    text-align: center;
+    color: rgb(91, 124, 0);
+    font-size: 30px;
+
+}
+*/
+main section article figure img {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+main section article figure {
+    text-align: center;
+    color: rgb(91, 124, 0);
+    font-size: 30px;
+    font-style: italic; /* kursywa */
+}
