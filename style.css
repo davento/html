@@ -21,6 +21,15 @@ header nav a{
     padding: 5px;
 }
 
+/*
+!!pseudoklasa!!
+ponizej (najezdzajac na przycisk, kolor sie zmienia)
+*/
+header nav a:hover{
+    background: rgb(3, 46, 3);
+
+}
+
 main {
     background-color:cornflowerblue; 
     padding: 5px;
@@ -30,8 +39,32 @@ main section {
     overflow: hidden;
 }
 
+main section a:hover {
+    font-weight: bold;
+}
+
+.background-red {
+    background: rgb(216, 7, 7);
+}
+
+.background-green {
+    background: rgb(24, 216, 7);
+}
+
+.background-aqua {
+    background: rgb(11, 196, 140);
+}
+
+.top-headline{
+    color: blue;
+}
+
+.main-link {
+    text-transform: uppercase;
+}
+
 main section p img {
-    width: 200px;
+    width: 400px;
     float: left;
     margin-right: 5px;
 }
