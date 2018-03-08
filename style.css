@@ -1,0 +1,27 @@
+body {
+    font-family: Arial;
+    font-size: 12px;
+    background: grey;
+}
+
+header{
+    background-color:rgb(99, 99, 194);
+    padding: 5px;
+}
+
+header nav{
+    text-align: center;
+    background: green; 
+    padding: 5px;
+}
+
+header nav a{
+    color:bisque;
+    background: green;
+    padding: 5px;
+}
+
+main {
+    background-color:cornflowerblue; 
+    padding: 5px;
+}
