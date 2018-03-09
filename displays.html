@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box; /*uniwersalne dopasowanie, ktore trzyma rozmiar kazdego elementu*/
+        }
+        .displays-wrapper {
+            position: relative;
+            background: rgb(255, 255, 255);
+            margin-left: 40%;
+            padding: 5px;
+        }
+                /*float: left; */
+        .displays-wrapper div {
+            background: yellow;
+        }
+        /* 100% szerokosci domyslnie */
+        .display-block {
+            display: block;
+        }
+
+        .display-inline-block {
+            display: inline-block;
+
+        }
+
+        .display-inline {
+            display: inline;
+        }
+
+        .display-none {
+            display: none;
+        }
+
+        .orange {
+            background: yellow !important;
+        }
+        .red {
+            background: red;
+        }
+
+        .blue {
+            background: blue;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="displays-wrapper">
+        <div class="display-inline-block">
+            Hello inline1
+         </div>
+        <div class="display-inline-block orange">
+            Hello inline2
+        </div>
+    </div>
+    <div class="displays-wrapper">
+        <div class="display-inline-block blue">
+            Hello inline3
+        </div>
+        <div class="display-inline-block red">
+            Hello inline4
+        </div>
+    </div>
+        <div class="displays-wrapper">
+            <div class="display-none">
+                Hello none!
+            </div>
+        </div>
+    
+</body>
+</html>
