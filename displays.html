@@ -5,32 +5,36 @@
     <title>Document</title>
 
     <style>
+        /* * {
+            box-sizing: border-box;
+        } */
 
-        * {
-            box-sizing: border-box; /*uniwersalne dopasowanie, ktore trzyma rozmiar kazdego elementu*/
-        }
         .displays-wrapper {
             position: relative;
-            background: rgb(255, 255, 255);
-            margin-left: 40%;
-            padding: 5px;
+            background: blue;
         }
-                /*float: left; */
+
         .displays-wrapper div {
             background: yellow;
         }
-        /* 100% szerokosci domyslnie */
+
+        /* 100% szerokości */
         .display-block {
             display: block;
         }
 
         .display-inline-block {
             display: inline-block;
-
+            width: 50%;
+            float: left;
         }
 
         .display-inline {
             display: inline;
+        }
+
+        .border {
+            border: 5px dotted green;
         }
 
         .display-none {
@@ -38,41 +42,36 @@
         }
 
         .orange {
-            background: yellow !important;
-        }
-        .red {
-            background: red;
+            background: orange !important;
         }
 
-        .blue {
-            background: blue;
+        .margin-top {
+            margin-top: 5px;
         }
-
     </style>
 </head>
 <body>
 
-    <div class="displays-wrapper">
-        <div class="display-inline-block">
-            Hello inline1
-         </div>
+    <!-- <div class="displays-wrapper">
+        <div class="display-inline-block border">
+            Hello inline!
+        </div>
         <div class="display-inline-block orange">
-            Hello inline2
+            Hello inline #2!
         </div>
     </div>
+
     <div class="displays-wrapper">
-        <div class="display-inline-block blue">
-            Hello inline3
+        <div class="display-none">
+            Hello none!
         </div>
-        <div class="display-inline-block red">
-            Hello inline4
-        </div>
+    </div> -->
+
+    <div class="displays-wrapper">
+        <div class="display-inline-block margin-top yellow">Hello inline-block!</div>
+        <div class="display-inline margin-top orange">Hello inline!</div>
+        <span>Hello world!</span>
     </div>
-        <div class="displays-wrapper">
-            <div class="display-none">
-                Hello none!
-            </div>
-        </div>
-    
+
 </body>
 </html>
